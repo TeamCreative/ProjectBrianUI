@@ -1,0 +1,14 @@
+
+.app{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  --twitter-color:#c22d2d;
+  --twitter-background:#e6ecf0;
+  transition: color 100ms ease-out;
+}

@@ -1,0 +1,128 @@
+.central {
+  flex: 0.4;
+  border-right: 1px solid var(--twitter-background);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+.central::-webkit-scrollbar {
+  display: none;
+}
+.central {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* header */
+
+.feedheader {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border-right: 1px solid var(--twitter-background);
+  padding: 15px 20px;
+  /* width:0.4;
+    border-right: 1px solid var(--twitter-background); */
+}
+
+.feedheader > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+/* header */
+
+/* tweetbox */
+
+.tweetbox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
+}
+
+.tweetbox > form {
+  display: flex;
+  flex-direction: column;
+}
+.tweetBox_input {
+  padding: 20px;
+  display: flex;
+}
+.tweetBox_input > input {
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+.twwetButton {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  border-radius: 30px !important;
+  text-transform: inherit !important;
+  widows: 80px;
+  height: 40px !important;
+  margin-left: auto !important;
+  margin-top: 20px !important;
+}
+.tweetboxImage {
+  border: none;
+  padding: 10px;
+}
+/* tweetbox*/
+
+/* 
+post */
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
+}
+.post_body > img {
+  border-radius: 20px;
+  /* width:100%; */
+}
+
+.post_footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.post_badge{
+    font-size: 14px !important;
+    color:var(--twitter-background) !important;
+}
+
+.headerSpecial{
+    font-weight: 600;
+    font-size: 12px;
+    color: grey;
+}
+
+.post_body{
+    flex: 1;
+    padding: 10px;
+}
+.post_header{
+
+}
+
+.post_avatar{
+    padding: 20px;
+}
+.post_headerDescription{
+margin-bottom: 10px;
+font-size: 15px;
+}
+.headerText{
+
+font-size: 15px;
+margin-bottom: 5px;
+
+}
+/* 
+post */
